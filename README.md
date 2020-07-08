@@ -2,7 +2,7 @@
 This project provides the implementation for [Stitcher: Feedback-driven Data Provider for Object Detection](https://arxiv.org/abs/2004.12432).
 In this paper, we present Stitcher, a feedback-driven data provider, which aims to train object detectors in a balanced way. In Stitcher, images are resized into smaller components and then stitched into the same size to regular images. Stitched images contain inevitable smaller objects, which is exploited with the loss statistics as feedback to guide next-iteration update. Stitcher steadily improves performance by a large margin in all settings, especially for small objects, with nearly no additional computation in both training and testing stages.
 
-![introduce image](Pipeline.pdf)
+![introduce image](Pipeline.jpeg)
 
 ## Installation
 - This project is based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
